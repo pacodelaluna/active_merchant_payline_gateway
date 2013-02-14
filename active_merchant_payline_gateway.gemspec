@@ -24,6 +24,7 @@ Gem::Specification.new do |s|
     "README.rdoc",
     "Rakefile",
     "VERSION",
+    "active_merchant_payline_gateway.gemspec",
     "lib/active_merchant/billing/integrations/payline/helper.rb",
     "lib/active_merchant/billing/integrations/payline/notification.rb",
     "lib/active_merchant/billing/integrations/payline/return.rb",
