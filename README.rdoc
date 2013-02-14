@@ -1,6 +1,14 @@
 = active_merchant_payline_gateway
 
-Description goes here.
+== Configuration
+
+Put your Payline WSDL file in the /config folder as follow : /config/payline/DirectPaymentAPI.wsdl.xml.
+
+== Todo
+
+* Write tests ...
+* Set more informations on the gateway (api_version, default_language, ...)
+* Enhance the recurrent payment
 
 == Contributing to active_merchant_payline_gateway
  

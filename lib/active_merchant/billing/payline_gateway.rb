@@ -197,7 +197,7 @@ module ActiveMerchant #:nodoc:
         rescue Exception => e
           raise "Problem Connection with Payline Gateway : #{e.inspect}"
         end
-        p "================ #{response.inspect}"
+        p "================ #{response.inspect}" if init_options[:test_mode]
         return build_response(
             response.body["#{action.to_s}_response".to_sym].merge!({ :action => "#{action.to_s}_response" }), 
             success_code, 
